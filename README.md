@@ -1,6 +1,6 @@
 # Blender-Driven Realistic Synthetic Data Generation
 
-This repository contains a set of Python scripts for the automatic generation of synthetic scenes in Blender. Synthetic datasets enriched with automatic annotations for diverse computer vision tasks are generated through the application of advanced techniques in camera positioning, lighting, object selection, and image processing.
+This repository contains a set of Python scripts for the automatic generation of synthetic scenes in Blender. Synthetic datasets enriched with automatic annotations for diverse computer vision tasks are generated through the application of techniques in camera positioning, lighting, object selection, and image processing.
 
 ---
 
