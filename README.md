@@ -1,6 +1,6 @@
-# Blender-Driven High-Quality Synthetic Data & Ground Truth Generation
+# Blender-Driven Realistic Synthetic Data Generation
 
-This repository contains a set of Python scripts for the automatic generation of synthetic scenes in Blender. Advanced techniques for camera positioning, lighting, object selection, and image processing are used to create synthetic datasets with automatic annotations.
+This repository contains a set of Python scripts for the automatic generation of synthetic scenes in Blender. Synthetic datasets enriched with automatic annotations for diverse computer vision tasks are generated through the application of advanced techniques in camera positioning, lighting, object selection, and image processing.
 
 ---
 
@@ -109,7 +109,7 @@ This project offers two methods for generating synthetic scenes. Choose the meth
 1. **⏩ Continuous execution**: Runs the entire process in one go using `main_generator.py`, generating images until the total image count or minimum instance requirement is met.
 2. **🔍 Monitored execution**: Uses `monitoring_generator.py` to periodically restart the process after generating a certain number of images, ensuring stability in long-running tasks.
 
-The continuous method is straightforward, while the monitored method provides more control over long-running generation tasks.
+The continuous method is straightforward, whereas the monitored method enables detailed process control.
 
 ### Steps to get it up and running:
 
@@ -131,7 +131,7 @@ The continuous method is straightforward, while the monitored method provides mo
        python3 monitoring_generator.py --restart_interval 10 --folder_images /path/to/images
        ```
      - Replace `/path/to/images` with the directory where generated images will be stored.
-     - The `--restart_interval` parameter specifies how many images should be generated before restarting the process.
+     - The `--restart_interval` parameter sets how many images trigger a process restart.
        
 ---
 
