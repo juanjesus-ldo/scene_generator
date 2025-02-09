@@ -1,4 +1,4 @@
-# Blender-Powered Synthetic Data & Ground Truth Generation
+# Blender-Driven High-Quality Synthetic Data & Ground Truth Generation
 
 This repository contains a set of Python scripts for the automatic generation of synthetic scenes in Blender. Advanced techniques for camera positioning, lighting, object selection, and image processing are used to create synthetic datasets with automatic annotations.
 
@@ -22,7 +22,7 @@ This repository contains a set of Python scripts for the automatic generation of
 
 ## 📌 Main Features
 - **Procedural 3D scene generation** with fully parameterized objects for customizable datasets.
-- **Dynamic and randomized camera positioning**, with constraints on rotation and focal length for realistic viewpoints.
+- **Dynamic camera positioning**, with constraints on rotation and focal length for realistic viewpoints.
 - **Configurable and physically-based lighting** setup, allowing for variable environmental conditions.
 - **Automated multi-modal rendering**, including RGB images, depth maps, shading, and normal maps.
 - **Ground truth annotation generation** for various computer vision tasks, including:
@@ -152,6 +152,6 @@ This project is under the **MIT** license. You are free to use and modify it.
 ---
 
 ## 📩 Contact
-If you have questions or suggestions, you can contact me at `juanjesus.losada@um.es` or `juanjesus.losada@gmail.com`.
+If you have questions or suggestions, you can contact me at `juanjesus.losada@um.es`.
 
 ---
