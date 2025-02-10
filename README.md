@@ -136,7 +136,7 @@ The continuous method is straightforward, whereas the monitored method enables d
 
 **Note**: This repository includes:
 
-- Parallelepiped objects stored in the `boxes/` folder.
+- Images capturing the faces of parallelepiped objects stored in the `boxes/` folder.
 
 - Additional 3D object meshes stored in the `obj_meshes/` folder.
 
