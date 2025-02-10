@@ -148,7 +148,7 @@ The existence of these elements allow users to quickly set up and explore the ge
 
 ## 🛠️ Work in Progress
 
-The code is stable and fully functional, but we are improving it by refactoring, optimizing, and integrating new functionalities. Updates will be gradually added to boost performance and enhance the synthetic data generation workflow.
+The code is stable and fully functional, but we are improving it by refactoring, optimizing, and integrating new functionalities. Updates will be gradually added to boost overall performance and usability.
 
 ---
 
