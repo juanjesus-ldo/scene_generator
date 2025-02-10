@@ -142,13 +142,13 @@ The continuous method is straightforward, whereas the monitored method enables d
 
 - A  3D scene mesh stored in the `surface/` folder.
 
-These elements allow users to quickly set up and explore the generator’s functionality by understanding how the code and folder structure are organized. Users must create their own custom parallelepiped objects, additional 3D assets, and reconstruct their own scene to generate realistic synthetic data with automatic annotations tailored to their specific objects of interest and desired environments.
+The existence of these elements allow users to quickly set up and explore the generator’s functionality by understanding how the code and folder structure are organized. Users must create their own custom parallelepiped objects, additional 3D assets, and reconstruct their own scene to generate realistic synthetic data with automatic annotations tailored to their specific objects of interest and desired environments.
    
 ---
 
 ## 🛠️ Work in Progress
 
-The code is currently stable and functional, but we are improving it by refactoring, optimizing, and integrating new functionalities. These updates will be progressively incorporated to boost performance and enhance the synthetic data generation workflow.
+The code is stable and fully functional, but we are improving it by refactoring, optimizing, and integrating new functionalities. Updates will be gradually added to boost performance and enhance the synthetic data generation workflow.
 
 ---
 
