@@ -99,12 +99,13 @@ The `config.yaml` file contains various parameters to customize data generation:
 
 > Make sure Blender's Python environment is correctly set up to use `bpy`.
 
+**⏳ Coming soon**: A Dockerfile will be available to facilitate deployment and setup.
+
 ---
 
 ## 🚀 Quick Start
 
 This project offers two methods for generating synthetic scenes. Choose the method that best fits your needs:
-
 
 1. **⏩ Continuous execution**: Runs the entire process in one go using `main_generator.py`, generating images until the total image count or minimum instance requirement is met.
 2. **🔍 Monitored execution**: Uses `monitoring_generator.py` to periodically restart the process after generating a certain number of images, ensuring stability in long-running tasks.
@@ -132,7 +133,17 @@ The continuous method is straightforward, whereas the monitored method enables d
        ```
      - Replace `/path/to/images` with the directory where generated images will be stored.
      - The `--restart_interval` parameter sets how many images trigger a process restart.
-       
+
+**Note**: This repository includes:
+
+- Parallelepiped objects stored in the `boxes/` folder.
+
+- Additional 3D object meshes stored in the `obj_meshes/` folder.
+
+- A  3D scene mesh stored in the `surface/` folder.
+
+These elements allow users to quickly set up and explore the generator’s functionality by understanding how the code and folder structure are organized. Users must create their own custom parallelepiped objects, additional 3D assets, and reconstruct their own scene to generate realistic synthetic data with automatic annotations tailored to their specific objects of interest and desired environments.
+   
 ---
 
 ## 🛠️ Work in Progress
